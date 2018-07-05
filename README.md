@@ -2,14 +2,22 @@
 
 Productive CLI for Mac - create items in Things3, Apple Notes, and Bear right from the command line!
 
+## Install
+
+`npm install -g pd-cli`
+
+## Usage
+
+`pd --help`
+
 ```
-➜  pd-cli git:(master) ts-node src/index.ts --help
-index.ts [command]
+➜  pd-cli git:(master) pd --help
+pd [command]
 
 Commands:
-  index.ts note <text>         make a note
-  index.ts task <name> [note]  make a task!
-  index.ts bear <text>         make a bear note!
+  pd note <text>         make a note
+  pd task <name> [note]  make a task!
+  pd bear <text>         make a bear note!
 
 Options:
   --help         Show help                                             [boolean]
