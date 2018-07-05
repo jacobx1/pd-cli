@@ -1,4 +1,4 @@
-import applescript from 'applescript';
+import * as applescript from 'applescript';
 
 export const promiseExec = (str: string): Promise<any> => {
   return new Promise((resolve, reject) => {
