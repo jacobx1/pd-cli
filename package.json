@@ -1,0 +1,26 @@
+{
+  "name": "pd-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jacob Schwind",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "prettier:write": "prettier --write \"src/**/*.ts\"",
+    "lint:fix": "tslint --fix \"src/**/*.ts\""
+  },
+  "dependencies": {
+    "@types/node": "^10.5.1",
+    "@types/yargs": "^11.0.0",
+    "applescript": "^1.0.0",
+    "openurl": "^1.1.1",
+    "typescript": "^2.9.2",
+    "yargs": "^12.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.13.7",
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.13.0"
+  }
+}
