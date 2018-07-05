@@ -1,5 +1,6 @@
+#!/usr/bin/env node
 import * as YARGS from 'yargs';
-import { getNote, getNotes, makeNote } from './applenotes';
+import { makeNote } from './applenotes';
 import { createNote } from './bear';
 import { makeTodo } from './things';
 

@@ -12,6 +12,9 @@
     "prettier:write": "prettier --write \"src/**/*.ts\"",
     "lint:fix": "tslint --fix \"src/**/*.ts\""
   },
+  "bin": {
+    "pd": "./dist/index.js"
+  },
   "dependencies": {
     "@types/node": "^10.5.1",
     "@types/yargs": "^11.0.0",
