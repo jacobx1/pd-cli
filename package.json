@@ -1,6 +1,6 @@
 {
   "name": "pd-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/index.js",
   "author": "Jacob Schwind",
   "license": "MIT",
@@ -17,16 +17,16 @@
     "pd": "./dist/index.js"
   },
   "dependencies": {
-    "@types/node": "^10.5.1",
-    "@types/yargs": "^11.0.0",
     "applescript": "^1.0.0",
     "openurl": "^1.1.1",
-    "typescript": "^2.9.2",
     "yargs": "^12.0.1"
   },
   "devDependencies": {
+    "@types/node": "^10.5.1",
+    "@types/yargs": "^11.0.0",
     "prettier": "^1.13.7",
     "tslint": "^5.10.0",
-    "tslint-config-prettier": "^1.13.0"
+    "tslint-config-prettier": "^1.13.0",
+    "typescript": "^2.9.2"
   }
 }
