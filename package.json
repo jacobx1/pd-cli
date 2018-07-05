@@ -1,10 +1,10 @@
 {
   "name": "pd-cli",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "author": "Jacob Schwind",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "ts-node src/index.ts",
     "prettier:write": "prettier --write \"src/**/*.ts\"",

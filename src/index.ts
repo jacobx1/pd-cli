@@ -40,7 +40,7 @@ YARGS.command(
   )
   .command(
     'bear <text>',
-    'make a task!',
+    'make a bear note!',
     (ygs: YARGS.Argv): YARGS.Argv => {
       return ygs.positional('text', {
         describe: 'bear note text',

@@ -9,7 +9,7 @@ index.ts [command]
 Commands:
   index.ts note <text>         make a note
   index.ts task <name> [note]  make a task!
-  index.ts bear <text>         make a task!
+  index.ts bear <text>         make a bear note!
 
 Options:
   --help         Show help                                             [boolean]
