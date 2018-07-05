@@ -24,3 +24,19 @@ Options:
   --version      Show version number                                   [boolean]
   --verbose, -v                                                 [default: false]
 ```
+
+## Build
+
+To build locally, run the following:
+
+```
+$ yarn install
+$ yarn build
+```
+
+For development, `ts-node` works great:
+
+```
+$ yarn global add ts-node
+$ yarn start:ts-node
+```
