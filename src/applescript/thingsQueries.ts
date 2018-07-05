@@ -1,5 +1,5 @@
 import { formatAppleScriptProperties } from '../util/format';
-import { ThingsTodo } from './types';
+import { IThingsTodo } from './types';
 
 const ROOT_TELL = 'tell application "Things3" to';
 
@@ -16,7 +16,7 @@ export const getTodoByRefQuery = (ref: string) =>
 export const getTodoProperty = (ref: string, property: string) =>
   `${ROOT_TELL} get ${property} of ${ref}`;
 
-export const makeTodoWithProperties = (props: Partial<ThingsTodo>) =>
+export const makeTodoWithProperties = (props: Partial<IThingsTodo>) =>
   `${ROOT_TELL} make new to do with properties ${formatAppleScriptProperties(
     props
   )}`;

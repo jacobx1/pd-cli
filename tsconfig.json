@@ -1,7 +1,14 @@
 {
   "compilerOptions": {
     "target": "es6",
+    "module": "commonjs",
     "moduleResolution": "node",
     "outDir": "dist"
-  }
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
