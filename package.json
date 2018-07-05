@@ -1,10 +1,11 @@
 {
   "name": "pd-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "author": "Jacob Schwind",
   "license": "MIT",
   "private": false,
+  "repository": "github:jacobx1/pd-cli",
   "scripts": {
     "start": "node dist/index.js",
     "build": "tsc",
