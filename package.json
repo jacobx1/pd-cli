@@ -1,6 +1,6 @@
 {
   "name": "pd-cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "dist/index.js",
   "author": "Jacob Schwind",
   "license": "MIT",
@@ -19,6 +19,7 @@
   "dependencies": {
     "applescript": "^1.0.0",
     "openurl": "^1.1.1",
+    "tmp": "^0.0.33",
     "yargs": "^12.0.1"
   },
   "devDependencies": {
