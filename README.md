@@ -1,5 +1,7 @@
 # pd-cli
 
+[![npm version](https://badge.fury.io/js/pd-cli.svg)](https://badge.fury.io/js/pd-cli)
+
 Productive CLI for Mac - create items in Things3, Apple Notes, and Bear right from the command line!
 
 ## Install
